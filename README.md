@@ -6,6 +6,8 @@ These codes are implemented by MATLAB. When using these codes, please cite [our 
 The AFD decomposes a signal according to its energy distribution, thereby making this algorithm suitable for separating pure ECG signal and noise with overlapping frequency ranges but different energy distributions. 
 A stop criterion for the iterative decomposition process in the AFD is calculated on the basis of the estimated signal-to-noise ratio (SNR) of the noisy signal.
 
+The detailed program of the AFD can be found in [Toolbox-for-Adaptive-Fourier-Decomposition](https://github.com/pikipity/Toolbox-for-Adaptive-Fourier-Decomposition) with an [online demo](http://zewang.site/AFD).
+
 ## Pseudocode
 
 ![Pseudocode of AFD based ECG Denoising](https://raw.githubusercontent.com/pikipity/AFD-based-ECG-Denoising/main/pseudocode.PNG)
